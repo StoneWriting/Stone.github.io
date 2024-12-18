@@ -1,0 +1,23 @@
+#largeImg {
+    border: solid 1px #ccc;
+    width: 250px;
+    height: 350px;
+    padding: 5px;
+    margin-top: -18px;
+  }
+  .thumbs img {
+    border: solid 1px #ccc;
+    width: 53px;
+    height: 53px;
+    padding: 4px;
+    margin-top: 7px;
+    margin-left: 8px;
+  }
+  .thumbs img:hover {
+    border-color: #ff9900;
+  }
+  .alpha {
+    filter: alpha(Opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+  }

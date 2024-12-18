@@ -1,0 +1,27 @@
+/* 刺绣作品展示 */
+.featured-embroidery {
+    padding-top: 40px;
+}
+.featured-embroidery p {
+    font-size: 18px;
+}
+
+.featured-embroidery, .embroidery-category {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.featured-embroidery img, .embroidery-category img {
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.featured-embroidery img:hover, .embroidery-category img:hover {
+    transform: scale(1.05);
+}
+
